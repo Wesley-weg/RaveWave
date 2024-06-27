@@ -1,5 +1,5 @@
 console.log("connected")
-let timer = 300000
+let timer = 75000
 let time = false
 buttonhouse = document.querySelector("#housebutton")
 buttontechno = document.querySelector("#technobutton")
@@ -34,30 +34,24 @@ setInterval(function countdown(){
 
 function synthesizer1(){
     document.querySelector(".block1").style.animation = "block1 1s infinite"
-    
 }
 function synthesizer2(){
     document.querySelector(".block2").style.animation = "block2 1s infinite"
-    
 }
 function synthesizer3(){
     document.querySelector(".block3").style.animation = "block3 1s infinite"
-
 }
 function synthesizer4(){
     document.querySelector(".block4").style.animation = "block4 1s infinite"
 }
 function synthesizer6(){
     document.querySelector(".block6").style.animation = "block6 1s infinite"
-    
 }
 function synthesizer7(){
     document.querySelector(".block7").style.animation = "block7 1s infinite"
-    
 }
 function synthesizer8(){
     document.querySelector(".block8").style.animation = "block8 1s infinite"
-    
 }
 function synthesizer9(){
     document.querySelector(".block9").style.animation = "block9 1s infinite"
@@ -96,7 +90,6 @@ if(timer > 0){
 function musictechno(){
 if(timer > 0){
     time = true
-    synthesizer()
     setTimeout(house.pause(),1000)
     setTimeout(drumbass.pause(),1000)
     setTimeout(hits.pause(),1000)
@@ -118,7 +111,6 @@ if(timer > 0){
 function musicdrumbass(){
 if(timer > 0){
     time = true
-    synthesizer()
     setTimeout(house.pause(),1000)
     setTimeout(techno.pause(),1000)
     setTimeout(hits.pause(),1000)
@@ -140,7 +132,6 @@ if(timer > 0){
 function musichits(){
 if(timer > 0){
     time = true
-    synthesizer()
     setTimeout(house.pause(),1000)
     setTimeout(techno.pause(),1000)
     setTimeout(drumbass.pause(),1000)
