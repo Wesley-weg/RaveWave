@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+#background{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+
+#timetext{
+    color: white;
+    background-color: rgb(85, 0, 85);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Bolt', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#housebutton {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#technobutton {
+    position: absolute;
+    top: 50%;
+    right: 11.5%;
+}
+
+#drumbassbutton {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+#hitsbutton {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
